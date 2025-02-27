@@ -92,7 +92,7 @@ function Shoes() {
               </div>
             </div>
           </div>
-          <div className="card-body cardBody">
+          <div className="card-body cardBody" style={{ marginBottom: "5%" }}>
             <h5 className="card-title">
               Mantoes Genuine Leather Military Men's Boots, High Ankle, Hard
               Toe, High Top
