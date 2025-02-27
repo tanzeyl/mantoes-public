@@ -23,7 +23,7 @@ function Shoes() {
             className="carousel slide"
             data-bs-ride="carousel"
           >
-            <div className="carousel-inner">
+            <div className="carousel-inner" style={{ height: "auto" }}>
               <div className="carousel-item active">
                 <center>
                   <img
@@ -91,6 +91,30 @@ function Shoes() {
                 </center>
               </div>
             </div>
+            <button
+              className="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleControls"
+              data-bs-slide="prev"
+            >
+              <span
+                className="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span className="visually-hidden">Previous</span>
+            </button>
+            <button
+              className="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleControls"
+              data-bs-slide="next"
+            >
+              <span
+                className="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span className="visually-hidden">Next</span>
+            </button>
           </div>
           <div className="card-body cardBody">
             <h5 className="card-title">
@@ -112,7 +136,7 @@ function Shoes() {
             className="carousel slide"
             data-bs-ride="carousel"
           >
-            <div className="carousel-inner">
+            <div className="carousel-inner" style={{ height: "auto" }}>
               <div className="carousel-item active">
                 <center>
                   <img
@@ -180,6 +204,30 @@ function Shoes() {
                 </center>
               </div>
             </div>
+            <button
+              className="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleControls"
+              data-bs-slide="prev"
+            >
+              <span
+                className="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span className="visually-hidden">Previous</span>
+            </button>
+            <button
+              className="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleControls"
+              data-bs-slide="next"
+            >
+              <span
+                className="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span className="visually-hidden">Next</span>
+            </button>
           </div>
           <div className="card-body cardBody">
             <h5 className="card-title">
