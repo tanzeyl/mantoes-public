@@ -5,7 +5,7 @@ function Footer() {
   return (
     <>
       <center>
-        <div className="footer">
+        <div className="footer navbar-fixed-bottom">
           <img
             src={SmallLogo}
             alt="Logo"

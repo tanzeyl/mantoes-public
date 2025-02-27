@@ -45,18 +45,6 @@ function Navbar() {
                   <hr className="line" />
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link" to="/shoes">
-                    Shoes
-                  </Link>
-                  <hr className="line" />
-                </li>
-                <li className="nav-item">
-                  <Link className="nav-link" to="/about">
-                    About Us
-                  </Link>
-                  <hr className="line" />
-                </li>
-                <li className="nav-item">
                   <Link className="nav-link" to="/contact">
                     Contact Us
                   </Link>

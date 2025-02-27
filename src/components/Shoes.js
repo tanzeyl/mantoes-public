@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import LB1 from "../images/Long Boot 1.png";
 import LB2 from "../images/Long Boot 2.png";
 import LB3 from "../images/Long Boot 3.png";
@@ -96,9 +97,9 @@ function Shoes() {
               Mantoes Genuine Leather Military Men's Boots, High Ankle, Hard
               Toe, High Top
             </h5>
-            <a href="/" className="btn btn-success">
+            <Link className="btn btn-success" to="/longBoot">
               View Item
-            </a>
+            </Link>
           </div>
         </div>
 
@@ -182,9 +183,9 @@ function Shoes() {
               Mantoes Genuine Leather Police Army Military NCC DMS Ankle Boots
               for Men
             </h5>
-            <a href="/" className="btn btn-success">
+            <Link to="/shortBoot" className="btn btn-success">
               View Item
-            </a>
+            </Link>
           </div>
         </div>
       </div>
