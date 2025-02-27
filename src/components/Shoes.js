@@ -92,7 +92,7 @@ function Shoes() {
               </div>
             </div>
           </div>
-          <div className="card-body cardBody" style={{ marginBottom: "5%" }}>
+          <div className="card-body cardBody">
             <h5 className="card-title">
               Mantoes Genuine Leather Military Men's Boots, High Ankle, Hard
               Toe, High Top
@@ -103,7 +103,10 @@ function Shoes() {
           </div>
         </div>
 
-        <div className="card myCard" style={{ width: "18rem" }}>
+        <div
+          className="card myCard"
+          style={{ width: "18rem", marginBottom: "20%" }}
+        >
           <div
             id="carouselExampleAutoplaying2"
             className="carousel slide"
