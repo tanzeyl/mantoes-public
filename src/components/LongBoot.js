@@ -95,7 +95,6 @@ export default function LongBoot() {
             Aqeel Khan (Owner):{" "}
             <input
               type="text"
-              style={{ marginLeft: "4%" }}
               className="inputBox"
               value="+91-9889974434"
               readOnly

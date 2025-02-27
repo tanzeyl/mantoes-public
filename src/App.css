@@ -95,6 +95,7 @@ body {
   color: white;
   box-shadow: 0px 0px 8px rgba(0, 123, 255, 0.5);
   background-color: rgba(0, 0, 0, 0.4);
+  margin-bottom: 5%;
 }
 
 .contactContainer {
@@ -117,7 +118,7 @@ body {
   }
 
   .contactDetails {
-    height: 20vh;
+    height: 30vh;
   }
 
   .mainCard {
