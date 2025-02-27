@@ -10,7 +10,7 @@ export default function LongBoot() {
   return (
     <>
       <div className="mainShoeContainer">
-        <div className="card myCard mainCard" style={{ width: "40%" }}>
+        <div className="card myCard mainCard">
           <div
             id="carouselExampleAutoplaying"
             className="carousel slide"

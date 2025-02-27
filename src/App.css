@@ -121,7 +121,8 @@ body {
   }
 
   .mainCard {
-    height: 30vh;
+    height: 42%;
+    width: 94%;
   }
 
   .welcomeText {

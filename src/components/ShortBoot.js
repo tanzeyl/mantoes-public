@@ -10,7 +10,7 @@ export default function ShortBoot() {
   return (
     <>
       <div className="mainShoeContainer">
-        <div className="card myCard mainCard" style={{ width: "40%" }}>
+        <div className="card myCard mainCard">
           <div
             id="carouselExampleAutoplaying"
             className="carousel slide"
