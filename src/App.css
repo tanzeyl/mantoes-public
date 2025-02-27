@@ -120,4 +120,8 @@ body {
   .mainCard {
     height: 30vh;
   }
+
+  .welcomeText {
+    display: none;
+  }
 }

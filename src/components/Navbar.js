@@ -21,7 +21,7 @@ function Navbar() {
                 <span className="logoText">Mantoes</span>
               </Link>
             </div>
-            <Link className="navbar-brand" to="/">
+            <Link className="navbar-brand welcomeText" to="/">
               Welcome to our web store!
             </Link>
             <button
