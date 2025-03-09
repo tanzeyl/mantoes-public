@@ -5,135 +5,61 @@ import SB3 from "../images/Short Boot 3.png";
 import SB4 from "../images/Short Boot 4.png";
 import SB5 from "../images/Short Boot 5.png";
 import SB6 from "../images/Short Boot 6.png";
+import SB7 from "../images/Short Boot 7.jpg";
 
 export default function ShortBoot() {
   return (
     <>
       <div className="mainShoeContainer">
-        <div className="card myCard mainCard">
-          <div
-            id="carouselExampleAutoplaying"
-            className="carousel slide"
-            data-bs-ride="carousel"
-          >
-            <div className="carousel-inner">
-              <div className="carousel-item active">
-                <center>
-                  <img
-                    src={SB1}
-                    width="300"
-                    height="300"
-                    className="d-block"
-                    alt="..."
-                  />
-                </center>
-              </div>
-              <div className="carousel-item">
-                <center>
-                  <img
-                    src={SB2}
-                    width="300"
-                    height="300"
-                    className="d-block"
-                    alt="..."
-                  />
-                </center>
-              </div>
-              <div className="carousel-item">
-                <center>
-                  <img
-                    src={SB3}
-                    width="300"
-                    height="300"
-                    className="d-block"
-                    alt="..."
-                  />
-                </center>
-              </div>
-              <div className="carousel-item">
-                <center>
-                  <img
-                    src={SB4}
-                    width="300"
-                    height="300"
-                    className="d-block"
-                    alt="..."
-                  />
-                </center>
-              </div>
-              <div className="carousel-item">
-                <center>
-                  <img
-                    src={SB5}
-                    width="300"
-                    height="300"
-                    className="d-block"
-                    alt="..."
-                  />
-                </center>
-              </div>
-              <div className="carousel-item">
-                <center>
-                  <img
-                    src={SB6}
-                    width="300"
-                    height="300"
-                    className="d-block"
-                    alt="..."
-                  />
-                </center>
-              </div>
-            </div>
-            <button
-              className="carousel-control-prev"
-              type="button"
-              data-bs-target="#carouselExampleControls"
-              data-bs-slide="prev"
-            >
-              <span
-                className="carousel-control-prev-icon"
-                aria-hidden="true"
-              ></span>
-              <span className="visually-hidden">Previous</span>
-            </button>
-            <button
-              className="carousel-control-next"
-              type="button"
-              data-bs-target="#carouselExampleControls"
-              data-bs-slide="next"
-            >
-              <span
-                className="carousel-control-next-icon"
-                aria-hidden="true"
-              ></span>
-              <span className="visually-hidden">Next</span>
-            </button>
-          </div>
-        </div>
-        <div className="contactDetails">
-          <div className="details">
-            <p>
-              To know more about this boot or for bulk order, reach out to us
-              using the below mentioned details:
-            </p>
-            Aqeel Khan (Owner):{" "}
-            <input
-              type="text"
-              className="inputBox"
-              value="+91-9889974434"
-              readOnly
-            />
-            <br />
-            Riyaz Ahmad (Manager):{" "}
-            <input
-              type="text"
-              className="inputBox"
-              value="+91-8090380913"
-              readOnly
-            />
-            <br />
-          </div>
-        </div>
+        <img
+          src={SB1}
+          width="300"
+          height="300"
+          className="d-block ``mainImages``"
+          alt="..."
+        />
+        <img
+          src={SB2}
+          width="300"
+          height="300"
+          className="d-block ``mainImages``"
+          alt="..."
+        />
+        <img
+          src={SB3}
+          width="300"
+          height="300"
+          className="d-block ``mainImages``"
+          alt="..."
+        />
+        <img
+          src={SB4}
+          width="300"
+          height="300"
+          className="d-block ``mainImages``"
+          alt="..."
+        />
+        <img
+          src={SB5}
+          width="300"
+          height="300"
+          className="d-block ``mainImages``"
+          alt="..."
+        />
+        <img
+          src={SB6}
+          width="300"
+          height="300"
+          className="d-block ``mainImages``"
+          alt="..."
+        />
+        <img
+          src={SB7}
+          width="300"
+          height="300"
+          className="d-block ``mainImages``"
+          alt="..."
+        />
       </div>
     </>
   );
