@@ -11,55 +11,76 @@ export default function ShortBoot() {
   return (
     <>
       <div className="mainShoeContainer">
-        <img
-          src={SB1}
-          width="300"
-          height="300"
-          className="d-block ``mainImages``"
-          alt="..."
-        />
-        <img
-          src={SB2}
-          width="300"
-          height="300"
-          className="d-block ``mainImages``"
-          alt="..."
-        />
-        <img
-          src={SB3}
-          width="300"
-          height="300"
-          className="d-block ``mainImages``"
-          alt="..."
-        />
-        <img
-          src={SB4}
-          width="300"
-          height="300"
-          className="d-block ``mainImages``"
-          alt="..."
-        />
-        <img
-          src={SB5}
-          width="300"
-          height="300"
-          className="d-block ``mainImages``"
-          alt="..."
-        />
-        <img
-          src={SB6}
-          width="300"
-          height="300"
-          className="d-block ``mainImages``"
-          alt="..."
-        />
-        <img
-          src={SB7}
-          width="300"
-          height="300"
-          className="d-block ``mainImages``"
-          alt="..."
-        />
+        <div className="mainImages">
+          <img
+            src={SB1}
+            width="300"
+            height="300"
+            className="d-block"
+            style={{ borderRadius: "20px" }}
+            alt="..."
+          />
+        </div>
+        <div className="mainImages">
+          <img
+            src={SB2}
+            width="300"
+            height="300"
+            className="d-block"
+            style={{ borderRadius: "20px" }}
+            alt="..."
+          />
+        </div>
+        <div className="mainImages">
+          <img
+            src={SB3}
+            width="300"
+            height="300"
+            className="d-block"
+            style={{ borderRadius: "20px" }}
+            alt="..."
+          />
+        </div>
+        <div className="mainImages">
+          <img
+            src={SB4}
+            width="300"
+            height="300"
+            className="d-block"
+            style={{ borderRadius: "20px" }}
+            alt="..."
+          />
+        </div>
+        <div className="mainImages">
+          <img
+            src={SB5}
+            width="300"
+            height="300"
+            className="d-block"
+            style={{ borderRadius: "20px" }}
+            alt="..."
+          />
+        </div>
+        <div className="mainImages">
+          <img
+            src={SB6}
+            width="300"
+            height="300"
+            className="d-block"
+            style={{ borderRadius: "20px" }}
+            alt="..."
+          />
+        </div>
+        <div className="mainImages">
+          <img
+            src={SB7}
+            width="300"
+            height="300"
+            className="d-block"
+            style={{ borderRadius: "20px" }}
+            alt="..."
+          />
+        </div>
       </div>
     </>
   );

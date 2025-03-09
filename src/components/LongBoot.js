@@ -9,41 +9,56 @@ export default function LongBoot() {
   return (
     <>
       <div className="mainShoeContainer">
-        <img
-          src={LB1}
-          width="300"
-          height="300"
-          className="d-block ``mainImages``"
-          alt="..."
-        />
-        <img
-          src={LB2}
-          width="300"
-          height="300"
-          className="d-block ``mainImages``"
-          alt="..."
-        />
-        <img
-          src={LB3}
-          width="300"
-          height="300"
-          className="d-block ``mainImages``"
-          alt="..."
-        />
-        <img
-          src={LB4}
-          width="300"
-          height="300"
-          className="d-block ``mainImages``"
-          alt="..."
-        />
-        <img
-          src={LB5}
-          width="300"
-          height="300"
-          className="d-block ``mainImages``"
-          alt="..."
-        />
+        <div className="mainImages">
+          <img
+            src={LB1}
+            width="300"
+            height="300"
+            className="d-block"
+            style={{ borderRadius: "20px" }}
+            alt="..."
+          />
+        </div>
+        <div className="mainImages">
+          <img
+            src={LB2}
+            width="300"
+            height="300"
+            className="d-block"
+            style={{ borderRadius: "20px" }}
+            alt="..."
+          />
+        </div>
+        <div className="mainImages">
+          <img
+            src={LB3}
+            width="300"
+            height="300"
+            className="d-block"
+            style={{ borderRadius: "20px" }}
+            alt="..."
+          />
+        </div>
+        <div className="mainImages">
+          <img
+            src={LB4}
+            width="300"
+            height="300"
+            className="d-block"
+            style={{ borderRadius: "20px" }}
+            alt="..."
+          />
+        </div>
+        <div className="mainImages">
+          <img
+            src={LB5}
+            width="300"
+            height="300"
+            className="d-block"
+            style={{ borderRadius: "20px" }}
+            alt="..."
+          />
+        </div>
       </div>
     </>
   );
